@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    box-sizing: border-box;
+    background: white;
+}
+
+.profile-head{
+    background: greenyellow;
+    display: block;
+    box-sizing: border-box;
+    padding: 60px;
+    padding-bottom: 150px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    font-weight: thin;
+    
+}
+
+
+.profile-body{
+    background: whitesmoke;
+    margin: 15px;
+    /* border: 1px solid black; */
+    padding: 5px;
+    padding-top: 3%;
+    display: block;
+    position: relative;
+    top: -120px;
+    border-radius: 20px;
+    /* box-shadow: 2px 12px 75px  10px rgb(86, 85, 85); */
+}
+
+.profile-image{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(59, 59, 59);
+    margin-bottom: 40px;
+}
+
+.profile-image .image{
+    width: 150px;
+    height: 150px;
+    border: 2px solid yellowgreen;
+    padding: 9px;
+    border-radius: 140px;
+}
+
+.profile-image img{
+    width: 130px;
+    height: 130px;
+    border-radius: 140px;
+}
+
+.profile-tab{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+
+}
+
+.profile-tab a:nth-child(2n-1){
+    background: rgb(209, 209, 209);
+    border-radius: 4px;
+}
+
+.profile-tab a{
+    text-decoration: none;
+    color: rgb(81, 81, 81);
+    margin:5px;
+    padding: 5px;
+}
